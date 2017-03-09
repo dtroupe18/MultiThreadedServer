@@ -30,7 +30,7 @@ public class MultiThreadedServer extends Application {
         new Thread( () -> {
             try {
                 ServerSocket serverSocket = new ServerSocket(8675);
-                textArea.appendText("Muti-Threaded Servered Started at " + new Date() + "\n");
+                textArea.appendText("Muti-Threaded Server Started at " + new Date() + "\n");
 
                 // FOREVER!! Listen for connections
                 while (true) {
